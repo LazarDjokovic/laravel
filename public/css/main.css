@@ -1,0 +1,120 @@
+body{
+    background-color:	#FFF5EE;
+}
+/*Footer decoration*/
+footer{
+	background:#333;
+	color:#eee;
+	font-size:11px;
+	padding:20px;
+}
+ul.unstyled{
+	list-style:none;
+	padding:0;
+}
+/*Product picture, page allProducts.php, image size*/
+.allProductsPicture{
+	width:200px;
+	height:267px;
+}
+/*Avatar picture inc commnets on a product*/
+@media screen and (max-width: 768px) {
+    .col-xs-1 {
+        width:100px;
+        height:100px;
+    }
+}
+/*Profile picture*/
+@media screen and (max-width: 991px) {
+    .profilePictureMyProfile {
+       width:150px;
+    }
+}
+@media screen and (max-width: 572px) {
+    .listProfile {
+       text-align:center;
+    }
+}
+/*Login button*/
+.btn-success{ 
+	margin-top:7px;
+	margin-left:14px;
+	background:#1a8cff;
+}
+/*Avatar picture inc commnets on a product*/
+@media screen and (max-width: 767px) {
+    #poll {
+       width:280px;
+    }
+}
+/* Credit to bootsnipp.com for the css for the color graph */
+/*Span for counting votes in poll*/
+.spanCountVotes{
+	float:right;
+	color:#337ab7;
+}
+/* Span likes and dislikes*/
+#likeNumbers{
+    color:#95de13;
+    font-size:20px;
+}
+#divLikes{
+    width:100px;
+    display:table-cell /* this is keeping divs side by side*/
+}
+#divDislikes{
+    width:100px;
+    display:table-cell /* this is keeping divs side by side*/
+}
+#spanLikePicture{
+    width:50px;
+    height:50px;
+    cursor:pointer;
+    background-image: url("../images/likesDislikes/like.png");
+    background-size: cover;
+    display:inline-block;
+}
+#spanLikePicture:hover{
+    background-image: url("../images/likesDislikes/likeClicked.png");
+}
+#spanLikePictureAdded{
+    width:50px;
+    height:50px;
+}
+#spanLikePictureAdded img{
+    vertical-align: baseline; /* without this image wouldn't be in the center of the div*/
+}
+#dislikeNumbers{
+    color:#f52e17;
+    font-size:20px;
+}
+#spanDislikePicture{
+    width:50px;
+    height:50px;
+    cursor:pointer;
+    background-image: url("../images/likesDislikes/dislike.png");
+    background-size: cover;
+    display:block;
+    display:inline-block;
+}
+#spanDislikePicture:hover{
+    background-image: url("../images/likesDislikes/dislikeClicked.png");
+}
+#spanDislikePictureAdded{
+    width:50px;
+    height:50px;
+}
+#spanDislikePictureAdded img{
+    vertical-align: baseline; /* without this image wouldn't be in the center of the div*/
+}		
+/* notLoggedInModal*/
+#notLoggedInModal{
+	margin-bottom:150px;
+}
+/*Colors for pull vote results*/
+.green{
+    color:green;
+}
+.red{
+    color:red;
+}
